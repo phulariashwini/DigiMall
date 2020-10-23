@@ -1,0 +1,253 @@
+body{
+    margin:0;
+    font-family: serif;
+}
+.container{
+    background-image: url('images/heading.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+      text-align:center;
+    color:whitesmoke;
+    font-size: 100px;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 20px;
+}
+.menu{
+    text-align: center;
+    background: firebrick ;
+}
+.menu-ul{
+    margin:0;
+    padding:0;
+    display:inline;
+}
+.menu-ul li{
+    font-size: 20px;
+    list-style: none;
+    display:inline-block;
+    padding:10px 10px 10px 10px;
+}
+.a-menu , .links{
+    text-decoration: none;
+    color: floralwhite;
+}
+.menu-ul li:hover{
+    background: peru;
+    transform:scale(1.1);
+}
+.ul-select{
+    border:1px solid whitesmoke;
+    border-radius: 50px;
+    display: inline-block;
+    background: transparent;
+    font-size: 18px;
+    color:whitesmoke;
+    height: max-content;
+}
+ 
+.img-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: oblique;
+    background-color: orange;
+}
+.item-image{
+    height:300px;
+    width:300px;
+    border-radius:0 0 50px 50px;
+    padding:10px;
+}
+/* .container1{
+        margin: 50px 50px 50px 5%;
+        width: 90%;
+        text-align: center;
+        display: inline-block; */
+.image-title{
+    text-align: center;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 18px;
+}
+.item-image{
+    display: inline-block;
+}
+.container2{
+    background-image: url('images/footer.jpg');
+}
+.footer{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding:10px;
+}
+.links{
+    color: ivory;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+.links ul{
+    padding:0;
+}
+.links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+.shop-item-image{
+    height:200px;
+    width: 200px;
+}
+.shop-item-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bakery-item-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shop-item{
+    display: inline-block;
+    padding:20px;
+}
+.container-bakery,.container-vege{
+    width: 100%;
+    display: center;
+    margin:10px 20px 10px 20px;
+    padding:20px;
+    box-sizing: border-box;
+}
+.img-header{
+    text-align: center;
+}
+.bakery-item-detail,.vege-item-detail{
+  block-size: center; 
+  font-size: 20px;
+}
+.img-header{
+    background-color: wheat;
+}
+.btn-primary{
+    padding:5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: tomato;
+    border-color: transparent;
+}
+.container3{
+    height:500px;
+    width:500px;
+    text-align: center;
+    margin: auto;
+}
+.btn-remove{
+    padding:5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color:tomato;
+    border-color: transparent;
+}
+.cart-header{
+    background-color: wheat;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}

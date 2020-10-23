@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>Grocery List</title>
+		<style>
+			body{
+					margin:0;
+					font-family: serif;
+				}
+			.container{
+				background-image: url('images/heading.jpg');
+				background-position: cover;
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+			.title{
+				text-align:center;
+				color:whitesmoke;
+				font-size: 100px;
+				font-variant: small-caps;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				letter-spacing: 20px;
+			}
+			</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="title">Digi
+								Mall</div>
+
+			</div>
+		<p id="newItemLabel">Add a New Item:</p>
+		<form>
+			<input type="text" name="itemName" id="itemName" value="Item Name"/>
+			<input type="text" name="itemAmount" id="itemAmount" value="Item Amount"/>
+			<select>
+				<option value="Other">Other</option>
+  				<option value="Vegetables">Vegetables</option>
+				<option value="Fruits">Bakery</option>
+				<option value="Household">Household</option>
+			</select> 
+			<input type="button" value="add" id="addButton" onClick="" name="add"/>
+		</form>
+	</body>
+</html>
